@@ -19,7 +19,7 @@ interface GenreListProps {
 const GenreList = ({ onSelectGenre, selectedGenre }: GenreListProps) => {
   const { data, isLoading } = useGenres();
 
-  if (isLoading) return <Spinner />;
+  
 
   return (
     <>
